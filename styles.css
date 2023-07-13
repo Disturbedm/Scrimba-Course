@@ -1,0 +1,85 @@
+div {
+
+    
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1px;
+}
+
+
+.BBC-logo-top {
+    display: flex;
+    width: 150px;
+    height: 100px;
+    background: 0;
+    margin: 0;
+
+   
+}
+
+.login-icon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+}
+
+span {
+
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.bell-icon {
+
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin-left: 50px;
+}
+
+.vl {
+
+    border-left: 2px solid lightgray;
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    left: 5%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.banner {
+
+    background-color: #ffd230;;
+}
+
+ul {
+
+    display: flex;
+    list-style-type: none;
+       
+}
+
+li {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*
+.generic-icon {
+
+    display: block;
+    height: 22px;
+    width: 22px;
+    
+}
+ removed cannot get to work*/
+

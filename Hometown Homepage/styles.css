@@ -1,0 +1,226 @@
+body {
+    text-align: center;
+    color: #1D3557;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2,
+h3 {
+    margin: 20px 0 30px 0;
+    color: white;
+    text-shadow: 0 0 10px black;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+h3 {
+    font-size: 50px;
+    
+}
+
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px auto;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#hero {
+    background-image: url(images/banner2.jfif);
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+#hero-txt {
+    display: flex;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-size: 25px;
+    margin: 0 auto;
+    position: relative;
+    top: -180px;
+}
+
+
+.places-container {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+
+.top3-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 60px 0;
+    margin: 10px 10px;
+    background-color: rgba(168, 218, 220, 0.6);
+    height: 1100px;
+    border-radius: 20px;
+}
+
+
+.top3-container img {
+    width: 300px;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+
+.divider {
+    border: 3px solid grey;
+    border-radius: 20%;
+
+}
+
+
+.image-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 10px black;
+    width: 100%;
+    height: 136px;
+}
+
+
+.image-txt ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+
+li {
+    text-align: center;
+    padding: 30px 0px;
+    list-style: none;
+    padding: 12px 0px;
+    font-size: 20px;
+}
+
+
+
+h5 {
+    display: flex;
+    margin: 0 10px;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    border-radius: 20px 20px;
+}
+
+.visit-ideas-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.guide-banner {
+    margin-bottom: 10px;
+}
+
+
+.guide-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0 0;
+    background-color: rgba(168, 180, 100, 0.6);
+    width: 1200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 5px solid black;
+    margin: auto 10px;
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+
+.guide-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0;
+}
+
+
+#london:hover {
+    content: url(images/london2.jpg);
+}
+
+
+#lake-district:hover {
+    content: url(images/lake\ district2.jpg);
+}
+
+
+#stonehenge:hover {
+    content: url(images/stonehenge2.jpg);
+}
+
