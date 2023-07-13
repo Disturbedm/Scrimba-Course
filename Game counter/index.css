@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-#score-guest, #score-home {
+#score-away, #score-home {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -26,35 +26,35 @@ function increaseHomeThree() {
     homeScoreTracker.textContent = homeScore
 }
 
-//guest
-let guestScore = 0
-let guestScoreTracker = document.getElementById("score-guest")
+//away
+let awayScore = 0
+let awayScoreTracker = document.getElementById("score-away")
 
 
-// Guest Score Button +1   
-let guestBtnOne = document.getElementById("guest-button-1")
+// away Score Button +1   
+let awayBtnOne = document.getElementById("away-button-1")
 
-function increaseGuestOne() {
-    guestScore += 1
-    guestScoreTracker.textContent = guestScore
+function increaseawayOne() {
+    awayScore += 1
+    awayScoreTracker.textContent = awayScore
 }
 
 
-// Guest Score Button +2
-let guestBtnTwo = document.getElementById("guest-button-2")
+// away Score Button +2
+let awayBtnTwo = document.getElementById("away-button-2")
 
-function increaseGuestTwo() {
-    guestScore += 2
-    guestScoreTracker.textContent = guestScore
+function increaseawayTwo() {
+    awayScore += 2
+    awayScoreTracker.textContent = awayScore
 }
 
 
-// Guest Score Button +3
-let guestBtnThree = document.getElementById("guest-button-3")
+// away Score Button +3
+let awayBtnThree = document.getElementById("away-button-3")
 
-function increaseGuestThree() {
-    guestScore += 3
-    guestScoreTracker.textContent = guestScore
+function increaseawayThree() {
+    awayScore += 3
+    awayScoreTracker.textContent = awayScore
 }
 
 
@@ -63,8 +63,8 @@ function increaseGuestThree() {
 let newGame = document.getElementById("newGame")
 
 function resetScores() {
-    guestScore = 0
-    guestScoreTracker.textContent = guestScore
+    awayScore = 0
+    awayScoreTracker.textContent = awayScore
     homeScore = 0
     homeScoreTracker.textContent = homeScore
     
